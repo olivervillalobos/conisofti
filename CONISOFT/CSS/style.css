@@ -1,0 +1,478 @@
+@import "compass/css3";
+
+.navbar.bg-dark {
+  background-color: #1458A4 !important;
+  /*Opacity start*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  /*Opacity end*/
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 2vw;
+}
+
+hr.rounded {
+  color: #fff;
+  border-top: 8px dashed #1458A4 !important;
+  border-radius: 15px;
+
+}
+
+.lead-justify {
+  text-align: justify;
+  font-size: large;
+}
+
+.lead-justify-list {
+  text-align: justify;
+  font-size: large;
+  line-height: 0.95;
+}
+
+.lead-center {
+  text-align: center;
+  font-size: large;
+}
+
+body {
+  font: 14px/2 "Open sans", sans-serif;
+  letter-spacing: 0.05em;
+  background: #fff;
+}
+
+.texto {
+  background-image: url("./RESOURCES/IMG/venue.jpeg.");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+}
+
+.aver {
+  width: 50%;
+  height: fit-content;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5)
+}
+
+.texto_header_1 {
+  text-align: left;
+  color: white;
+  opacity: 100% !important;
+}
+
+#span_header {
+  color: #fff;
+  text-align: left;
+  font: 18px/2 "Open sans", sans-serif;
+  opacity: 90% !important;
+}
+
+#span_header_sub {
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font: 20px/2 "Open sans", sans-serif;
+  opacity: 90% !important;
+}
+
+#span_header_jiisic {
+  color: #006400;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 100% !important;
+}
+
+.altura {
+  height: 100px !important;
+}
+
+.alturaMediana {
+  height: 60px !important;
+}
+
+.text-white.h3 {
+  text-align: center;
+}
+
+#logotitle {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+#headerback {
+  /* Set a specific height */
+  min-height: 60vh;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#logo1 {
+  float: center;
+  margin: 0 15px 0 0;
+  height: auto;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-item {
+  height: 110vh;
+  width: 100%;
+  min-height: 60vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.carousel-caption {
+  height: auto;
+  top: 20%;
+  padding-left: 0%;
+  bottom: 80%;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 3rem 0;
+  color: #fff;
+  border-top: 5px dashed #fff;
+}
+
+.izquierda {
+  float: left;
+}
+
+.featurette-heading {
+  font-weight: 500;
+  line-height: 0.75;
+  letter-spacing: normal;
+}
+
+.featurette-heading-little {
+  font-weight: 300;
+  line-height: 0.75;
+  letter-spacing: normal;
+}
+
+.featurette-heading-center {
+  font-weight: 500;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.textsub {
+  color: rgb(245, 50, 50);
+  font-size: larger;
+  font-weight: 600;
+}
+
+.advice {
+  color: rgb(255, 130, 130);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: fit-content;
+}
+
+li {
+  text-align: left;
+  margin: 0px 10px;
+  float: left;
+}
+
+tr,
+td {
+  font: 18px/2 "Open sans", sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0vh;
+  line-height: 2vh;
+  padding: 30px 80px 30px 40px;
+}
+
+.altura-grande {
+  height: 90px;
+}
+
+.alturaMediana {
+  height: 60px;
+}
+
+.alturaChica {
+  height: 45px;
+}
+
+/*Test */
+
+hr.icon {
+  margin: 25px auto 30px;
+  padding: 0;
+  border: 0;
+  border-top: solid 3px;
+  text-align: center;
+}
+
+hr.icon:after {
+  content: "↓";
+  display: inline-block;
+  position: relative;
+  top: -1.7rem;
+  padding: 0 1rem;
+  color: #fff;
+  border-radius: 0%;
+  font-family: FontAwesome;
+  font-size: 2.5rem;
+  background-color: #000;
+}
+
+
+/*Effects & Animations 
+----------------------------------------------------*/
+
+img.rounded-circle {
+  margin: 20px;
+  padding: 4px;
+  outline: 2px solid #DDD;
+  border: #a1a1a1;
+  float: center;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+img.rounded-circle:hover {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.hr-droid {
+  margin: 20px;
+  display: flex;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.hr-line {
+  width: 100%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 16px dotted #a4c639;
+}
+
+.green {
+  border-color: #a4c639;
+}
+
+.purple {
+  border-color: #3ec7e9;
+}
+
+.fa {
+  position: relative;
+  top: 3px;
+  color: #ff82db;
+}
+
+.col-center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.comittees {
+  
+  text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.btn-circle.btn-xl {
+  width: 120px;
+  height: 120px;
+  padding: 13px 18px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.submission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.tracks {
+  padding-top: 1vw;
+  margin-bottom: 2vw;
+  background: #e2e1e1;
+  border-radius: 10px;
+  text-align: center;
+  width: 40vw;
+}
+
+.final-version {
+  display: block;
+  padding-top: 5vmin;
+  width: 50vw;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.track-img-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.track-img-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1919px) {
+  .track-img-column {
+    width: 100%;
+  }
+
+  #first {
+    max-height: 100vw;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50% !important;
+  object-fit: center;
+  height: 100%;
+  object-position: bottom;
+}
+
+.alink {
+  color: #007bff;
+  text-decoration: none !important;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.alink:after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 1px solid;
+  margin: 0 auto;
+  transition: all 0.3s linear 0s;
+}
+
+.alink:hover:after {
+  width: 90%;
+}
+
+
+.doc-img-column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.doc-img-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .doc-img-column {
+    width: 100%;
+  }
+}
+
+.center-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
